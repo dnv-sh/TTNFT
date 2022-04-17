@@ -21,3 +21,7 @@ npx hardhat run scripts/deploy-script.js --network matic
 ```mint资产在IPFS上的NFT通证
 npx hardhat run scripts/mint-script.js --network matic
 ```
+
+```查询第一个通证的持有者
+npx hardhat run scripts/get-token-script.js --network matic
+```
