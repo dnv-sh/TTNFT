@@ -1,6 +1,6 @@
-# Basic Sample Hardhat Project
+# First NFT Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates how to create a NFT and deployed in matic. 
 
 Try running some of the following tasks:
 
@@ -12,4 +12,12 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
+```
+
+```部署到Mumbai测试网
+npx hardhat run scripts/deploy-script.js --network matic
+```
+
+```mint资产在IPFS上的NFT通证
+npx hardhat run scripts/mint-script.js --network matic
 ```
